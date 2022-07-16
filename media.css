@@ -1,0 +1,458 @@
+@media (max-width:1399px){
+
+}
+
+
+@media (max-width:1199px){
+
+    header {
+        margin-bottom: 53px;
+    }
+    .nav-link {
+        padding: 0 16px 5px !important;
+    }
+    .banner_titile {
+        padding-top: 85px;
+    }
+    .banner_titile h1 {
+        font-size: 44px;
+        margin-bottom: 14px;
+    }
+    .banner_titile p {
+        font-size: 17px;
+        font-weight: 500;
+        margin-bottom: 35px;
+    }
+    .banner_imag img {
+        transform: scaleY(0.9) translateY(26px);
+    }
+    .overview_heading h4 {
+        margin-bottom: 8px;
+    }
+    .overview_heading h1 {
+        font-size: 35px;
+        padding-bottom: 43px;
+        margin-bottom: 59px;
+    }
+    .overview_heading h1::before {
+        right: 47.8%;
+    }
+    .overview_heading h1::after {
+        right: 47.8%;
+    }
+    .overview_image {
+        width: 85px;
+        height: 85px;
+    }
+    .fa-solid {
+        font-size: 23px;
+        color: #44ace1;
+    }
+    .overview_tittle h1 {
+        font-size: 29px;
+        margin-bottom: 16px;
+    }
+    .overview_tittle p {
+        font-size: 17px;
+    }
+    .overview {
+        margin-bottom: 85px;
+    }
+    .list_item {
+        font-size: 14px;
+    }
+    .detailes_title p {
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .detailes_title h1::after {
+        right: 93.5%;
+    }
+    .customize {
+        padding: 70px 0 50px;
+    }
+    .customize_title h4 {
+        margin-bottom: 12px;
+        margin-top: 15px;
+    }
+    .customize_title h1 {
+        padding: 0 0 27px;
+        margin-bottom: 22px;
+    }
+    .customize_title p {
+        font-size: 19px;
+        font-weight: 300;
+    }
+    .pricing_heading h4 {
+        margin-bottom: 17px;
+    }
+    .pricing_heading h1 {
+        font-size: 34px;
+        letter-spacing: 0;
+        margin-bottom: 47px;
+    }
+    .pricing_heading h1::before {
+        left: 47.8%;
+    }
+    .pricing_heading h1::after {
+        right: 47.8%;
+    }
+    .pricing_title p {
+        font-size: 17px;
+    }
+    .ceo img {
+        width: 10% !important;
+        height: 10%;
+    }
+    .ceo_title h1 {
+        font-size: 16px;
+    }
+    .ceo_title p {
+        font-size: 10px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 5px;
+        height: 5px;
+    }
+    .carousel-indicators .active {
+        width: 13px;
+        height: 13px;
+    }
+    .product_detailes h1 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .product_detailes p {
+        font-size: 16px;
+        margin: 0;
+    }
+    .product_detailes h4 {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .product_detailes h1 {
+        font-size: 30px;
+    }
+    .elone_musk img {
+        width: 150px !important;
+        height: 150px;
+    }
+    .text h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .button {
+        padding-left: 118px;
+    }
+    .free h1 {
+        padding: 11px 0;
+    }
+    .free h2 {
+        padding: 6px 0 27px;
+    }
+    .free h5 {
+        padding: 18px 22px;
+    }
+    .btn_free {
+        margin-bottom: 23px;
+    }
+    .overview_heading h1 {
+        padding-bottom: 34px;
+    }
+    form {
+        padding: 36px 53px 45px;
+    }
+    .icon p i {
+        padding: 47px 21px 18px;
+    } 
+
+}
+
+ 
+@media (max-width:991px){
+
+    .detailes {
+        margin: 92px 0 52px;
+    }
+    .navbar .container {
+        flex-direction: column;
+    }
+    a.navbar-brand {
+        margin: 0 0 18px;
+    }
+    .nav-link {
+        padding: 0 27px 5px !important;
+    }
+    .banner_titile {
+        padding-top: 77px;
+        padding-bottom: 30px;
+    }
+    .banner_titile h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .banner_titile h1 {
+        font-size: 32px;
+        margin-bottom: 9px;
+    }
+    .banner_titile p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .btn_banner {
+        padding: 9px 14px;
+        font-size: 13px;
+    }
+    .banner_imag img {
+        transform: scaleY(01) translateY(63px);
+    }
+    .overview_heading h1 {
+        padding-bottom: 30px;
+    }
+    .overview {
+        margin-bottom: 68px;
+        padding: 0 40px;
+    }
+    .detailes_title h4 {
+        font-size: 15px;
+        margin-top: 28px;
+    }
+    .detailes_title h1 {
+        font-size: 33px;
+        padding: 0 0 25px;
+    }
+    .detailes_title h1::before {
+        width: 4%;
+    }
+    .detailes_title h1::after {
+        width: 4%;
+        right: 91.5%;
+    }
+    .list-unstyled li span {
+        font-size: 15px;
+    }
+    .customize_title h4 {
+        font-size: 15px;
+        margin-bottom: 8px;
+        margin-top: 15px;
+    }
+    .customize_title h1 {
+        font-size: 34px;
+        padding: 0 0 25px;
+        margin-bottom: 18px;
+    }
+    .customize_title h1::before {
+        width: 4%;
+    }
+    .customize_title h1::after {
+        width: 4%;
+        right: 91%;
+    }
+    .customize_title p {
+        font-size: 16px;
+    }
+    .customize_image img {
+        transform: scale(1.1) translateY(45px);
+    }
+    .pricing_heading h1 {
+        margin-bottom: 35px;
+    }
+    .pricing_title {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .pricing_title p {
+        margin: 0;
+    }
+    .ceo {
+        margin-top: 10px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact_us {
+        padding: 55px 0 270px;
+    }
+    .ceo_title {
+        margin-left: 0;
+    }
+    .product_detailes h1 {
+        font-size: 32px;
+    }
+    .product_detailes p {
+        font-size: 16px;
+    }
+    .carousel {
+        padding: 60px 30px 95px;
+    }
+    .elone_musk img {
+        margin-bottom: 14px;
+    }
+    .text h1 {
+        text-align: center;
+    }
+    .button {
+        justify-content: center;
+        margin-top: 22px;
+        padding-left: 0;
+    }
+    .btn_button {
+        margin: 0 13px;
+    }
+    .free {
+        margin-bottom: 21px;
+    }
+    form {
+        padding: 36px 40px 25px;
+        height: auto;
+        width: 503px;
+    }
+}
+
+
+@media (max-width:767px){
+
+    .navbar .container {
+        flex-direction: row;
+    }
+    a.navbar-brand {
+        margin: 0;
+    }
+    .navbar-toggler {
+        background-color: white;
+    }
+    .navbar-toggler {
+        padding: 0.1rem 0.40rem !important;
+    }
+    .banner_imag img {
+        height: 249px;
+        object-fit: contain;
+    }
+    .banner_titile {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .banner_batton.d-flex {
+        justify-content: space-evenly;
+    }
+    .banner_imag img {
+        transform: none;
+    }
+    .overview {
+        padding: 0 31px;
+    }
+    .detailes_title {
+        text-align: center;
+    }
+    .detailes_image img {
+        height: 249px;
+        object-fit: contain;
+    }
+    .detailes_title h1::before {
+        width: 3%;
+        left: 46.5%;
+    }
+    .detailes_title h1::after {
+        width: 3%;
+        right: 46.5%;
+    }
+    .list-unstyled {
+        padding-left: 195px;
+    }
+    .customize_title {
+        text-align: center;
+    }
+    .customize_title h1::before {
+        width: 3%;
+        left: 46.5%;
+    }
+    .customize_title h1::after {
+        width: 3%;
+        right: 46.5%;
+    }
+    .customize_image img {
+        transform: scale(0.5) translateY(-80px);
+    }
+    .pricing_heading h1::before {
+        width: 3%;
+        left: 46.5%;
+    }.pricing_heading h1::after {
+        width: 3%;
+        right: 46.5%;
+    }
+    .pricing_title p {
+        font-size: 18px;
+    }
+    .pricing_title {
+        padding-bottom: 25px;
+    }
+    .carousel {
+        padding: 58px 30px 44px;
+    }
+    .carousel {
+        background-size: cover;
+    }
+    .product_detailes {
+        text-align: center;
+        padding: 0 0 25px;
+    }
+    .what_see {
+        padding: 33px 0;
+    }
+    .free {
+        margin: 0px 75px 35px;
+    }
+    .contact_us {
+        padding: 55px 0 423px;
+    }
+}
+
+@media (max-width:575px){
+
+
+    .navbar-toggler {
+        padding: 0 !important;
+    }
+    .list-unstyled {
+        padding-left: 100px;
+    }
+    .customize {
+        padding: 70px 0 0;
+    }
+    .customize_image img {
+        transform: scale(0.8) translateY(-14px);
+    }
+    .carousel {
+        padding: 58px 30px 60px;
+    }
+    .btn_button {
+        padding: 9px 14px;
+    }
+    .overview_heading h1::before {
+        right: 45.2%;
+        width: 3%;
+    }
+    .overview_heading h1::after {
+        right: 45.2%;
+        width: 3%;
+    }
+    .free {
+        margin: 0px 25px 35px;
+    }
+    form {
+        padding: 36px 12px 25px;
+        width: 344px;
+    }
+    .submit {
+        margin-left: 203px;
+    }
+    .icon p i {
+        padding: 47px 15px 18px;
+    }
+    .copywright h4 {
+        font-size: 10px;
+    }
+}
+
+

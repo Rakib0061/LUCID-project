@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&display=swap');
+
+
+:root {
+    --font:  'Source Sans Pro', sans-serif;
+}
+body {
+    font-family: var(--font);
+}
+header {
+    background-image: url(bg.png);
+    margin-bottom: 60px;
+}
+.nav-link {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: -1px;
+    padding: 0 25px 5px !important;
+    transition: all;
+    position: relative;
+}
+.nav-link:hover {
+    color: #fff;
+}
+.nav-link::before {
+    content: '';
+    position: absolute;
+    background-color: #13567f;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 20%;
+    transition: all 0.2s linear;
+}
+.nav-link:hover::before {
+    width: 28%;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    background-color: #13567f;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    right: 20%;
+    transition: all 0.2s linear;
+}
+.nav-link:hover::after {
+    width: 28%;
+}
+.banner_titile {
+    padding-top: 95px;
+    color: #fff;
+}
+.banner_titile h4 {
+    color: #13567f;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.banner_titile h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner_titile p {
+    font-size: 19px;
+    font-weight: bold;
+    color: #4c4c4f;
+    margin-bottom: 54px;
+}
+.btn_banner {
+    border: 2px solid #4c4c4f;
+    border-radius: 0;
+    color: #fff;
+    padding: 12px 20px;
+    margin-right: 19px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+.btn_banner:hover {
+    background-color: #008ed6;
+    border: 2px solid #008ed6;
+}
+.banner_imag img {
+    transform: scaleY(0.9) translateY(31px);
+}
+.overview {
+    padding: 0 12px;
+    margin-bottom: 70px;
+}
+.overview_heading h4 {
+    color: #2da8ff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.overview_heading h1 {
+    font-size: 36px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: -1px;
+    margin-bottom: 60px;
+}
+.overview_heading h1::before {
+    content: '';
+    position: absolute;
+    width: 2%;
+    height: 3px;
+    background-color: #71cfff;
+    left: 47.9%;
+    bottom: 0;
+    transition: all 0.3s;
+}
+.overview_heading h1:hover::before {
+    background-color: #1a1a1ac7;
+}
+.overview_heading h1::after {
+    content: '';
+    position: absolute;
+    width: 2%;
+    height: 3px;
+    background-color: #71cfff;
+    right: 47.9%;
+    bottom: 0;
+    transition: all 0.5s linear;
+}
+.overview_heading h1:hover::after {
+    background-color: #1a1a1ac7;
+}
+.overview_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #e1e1e1;
+    border-radius: 100%;
+    margin: auto;
+    margin-bottom: 28px;
+}
+.fa-solid {
+    font-size: 25px;
+    color: #44ace1;
+}
+.overview_tittle h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    color: #1a1a1ac7;
+    font-weight: 500;
+}
+.overview_tittle p {
+    font-size: 18px;
+    color: #b8b8b8;
+}
+hr {
+    color: #8a8282;
+    margin: 0;
+}
+.detailes {
+    margin: 60px 0 0;
+}
+.detailes_title {
+
+}
+.detailes_title h4 {
+    color: #2da8ff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 53px;
+}
+.detailes_title h1 {
+    font-size: 37px;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: -1px;
+    padding: 0 0 33px;
+}
+.detailes_title h1::before {
+    content: '';
+    position: absolute;
+    width: 3%;
+    height: 3px;
+    background-color: #71cfff;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s;
+}
+.detailes_title h1:hover::before {
+    background-color: #1a1a1ac7;
+}
+.detailes_title h1::after {
+    content: '';
+    position: absolute;
+    width: 3%;
+    height: 3px;
+    background-color: #71cfff;
+    right: 93%;
+    bottom: 0;
+    transition: all 0.5s linear;
+} 
+.detailes_title h1:hover::after  {
+    background-color: #1a1a1ac7;
+}
+.detailes_title p {
+    font-size: 21px;
+    color: #b8b8b8;
+}
+.list_item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 14px;
+}
+.list ul li span {
+    margin-left: 12px;
+}
+.customize {
+    background-color: #f2f2f2;
+    padding: 60px 0 40px;
+}
+.customize_title {
+
+}
+.customize_title h4 {
+    color: #2da8ff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 53px;
+}
+.customize_title h1 {
+    font-size: 37px;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: -1px;
+    padding: 0 0 29px;
+}
+.customize_title p {
+    font-size: 21px;
+    color: #b8b8b8;
+}
+.customize_title h1::before {
+    content: '';
+    position: absolute;
+    width: 3%;
+    height: 3px;
+    background-color: #71cfff;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s;
+}
+.customize_title h1:hover::before {
+    background-color: #1a1a1ac7;
+}
+.customize_title h1::after {
+    content: '';
+    position: absolute;
+    width: 3%;
+    height: 3px;
+    background-color: #71cfff;
+    right: 93%;
+    bottom: 0;
+    transition: all 0.5s linear;
+}
+.customize_title h1:hover::after {
+    background-color: #1a1a1ac7;
+}
+.pricing {
+    
+}
+.carousel {
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    padding: 60px 80px 95px;
+}
+.carousel-item {
+
+}
+.pricing_heading {
+
+}
+.pricing_heading h4 {
+    color: #2da8ff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.pricing_heading h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 29px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.pricing_heading h1::before {
+    content: '';
+    position: absolute;
+    width: 2%;
+    height: 2px;
+    background-color: #71cfff;
+    left: 47.9%;
+    bottom: 0;
+    transition: all 0.3s;
+}
+.pricing_heading h1:hover::before {
+    background-color: #1a1a1ac7;
+}
+.pricing_heading h1::after {
+    content: '';
+    position: absolute;
+    width: 2%;
+    height: 2px;
+    background-color: #71cfff;
+    right: 47.9%;
+    bottom: 0;
+    transition: all 0.5s linear;
+}
+.pricing_heading h1:hover::after {
+    background-color: #1a1a1ac7;
+}
+.pricing_title p {
+    font-size: 23px;
+    color: #fff;
+}
+.ceo {
+    margin-top: 24px;
+}
+.ceo img {
+    width: 8% !important;
+    height: 8%;
+}
+.ceo_title {
+    margin-left: 25px;
+}
+.ceo_title h1 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+.ceo_title p {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+} 
+.carousel-control-prev-icon {
+    opacity: 0;
+}
+.carousel-control-next-icon {
+    opacity: 0;
+}
+.carousel-indicators [data-bs-target] {
+    width: 6px;
+    height: 6px;
+    cursor: pointer;
+    background-color: #ab101000;
+    border: 1px solid#fff !important;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    align-items: center;
+}
+.carousel-indicators .active {
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    border: none !important;
+}
+.product_detailes {
+
+}
+.product_detailes h4{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 7px;
+} 
+.product_detailes h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+.product_detailes p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+}
+.product_photo img {
+    height: 225px;
+    object-fit: contain;
+}
+.elone_musk img {
+    width: 180px !important;
+    height: 180px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.what_see {
+    padding: 50px 0;
+    background-color: #000;
+    color: #fff;
+}
+.text {
+
+}
+.text h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.text span {
+    font-weight: 100;
+}
+.button {
+    padding-left: 208px;
+}
+.btn_button {
+    border: 2px solid #4c4c4f;
+    border-radius: 0;
+    color: #fff;
+    padding: 12px 20px;
+    margin-right: 19px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+.btn_button:hover {
+    background-color: #008ed6;
+    border: 2px solid #008ed6;
+}
+.section_feature {
+    padding: 60px 0;
+}
+.free {
+    border: 1px solid#8a828245;
+}
+.free h1 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+    padding: 15px 0;
+}
+.free h2 {
+    font-size: 49px;
+    font-weight: 400;
+    margin: 0;
+    padding: 15px 0 27px;
+    transition: all 0.4s linear;
+}
+.free h2:hover {
+    background-color: #008ed6;
+    color: #fff;
+}
+sup {
+    font-size: 26px;
+    font-weight: 600;
+}
+.free h2 p {
+    font-size: 16px;
+    margin: 0;
+}
+.free h5{
+    color: #8a8282ab;
+    margin: 0;
+    padding: 30px 27px;
+    font-size: 17px;
+}
+.btn_free {
+    border: 1px solid #8a828245;
+    border-radius: 0;
+    color: #008ed6;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 29px;
+    transition: all 0.4s;
+}
+.btn_free:hover {
+    background-color: #008ed6;
+    color: #fff;
+    border: 1px solid #008ed6; 
+}
+.contact_us {
+    padding: 55px 0 233px;
+    background-color: #f2f2f2;
+}
+.phone_image {
+    margin-bottom: 27px;
+}
+.phone_title p {
+    color: #b1abab;
+    font-size: 16px;
+}
+.from_section {
+    position: relative;
+}
+form {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    width: 815px;
+    background-color: #000;
+    padding: 50px 40px 45px;
+}
+.form-control {
+    background-color: #000;
+    color: #6c757d;
+    border: 1px solid #2b2c2d;
+}
+.form-control:focus {
+    background-color: #000;
+}
+.title .row {
+    flex-direction: column;
+}
+textarea {
+    height: 162px;
+    position: relative;
+}
+.submit {
+    position: absolute;
+    right: 37px;
+    cursor: pointer;
+    width: 146px;
+    margin-top: 20px;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.submit:hover {
+    background-color: #008ed6;
+    color:#fff ;
+}
+.footer_part {
+    background-color: #000;
+}
+.icon p i {
+    font-size: 15px;
+    color: #6c757d ;
+    padding: 50px 25px 18px;
+    transition: all 0.2s linear;
+}
+.icon p i:hover {
+    color: #5393ff;
+}
+.copywright h4 {
+    color: #6c757d;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    margin: 0;
+}
